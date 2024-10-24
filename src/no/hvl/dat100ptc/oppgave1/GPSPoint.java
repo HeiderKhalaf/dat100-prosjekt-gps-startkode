@@ -20,6 +20,7 @@ public class GPSPoint {
 		
 	}
 
+
 	// TODO - get/set metoder
 	public int getTime() {
 		return time;
@@ -67,5 +68,10 @@ public class GPSPoint {
 		 return time + " (" + latitude + "," + longitude + ") " + elevation + "\n";
 		
 		
+	}
+
+	public static GPSPoint convert(String time2, String latitude2, String longitude2, String elevation2) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
